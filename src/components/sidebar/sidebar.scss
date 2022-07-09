@@ -1,7 +1,8 @@
 .sidebar{
-    flex-grow: 1;
     border-right: 0.01rem solid hsl(0, 2%, 90%);
-    min-height: 100vh;
+    height: 100vh;
+    
+    
     .top{
         height: 4.5rem;
         display: flex;

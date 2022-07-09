@@ -1,7 +1,15 @@
 .home{
-    display: flex;
-    
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
     .home_container{
-        flex-grow: 20;
+        height: inherit;
+        .widgets{
+            height: calc(100vh - 4.5rem);
+            display: flex;
+            gap:1.5rem;
+            padding: 1.5rem;
+            overflow-y: scroll;
+        }
     }
 }

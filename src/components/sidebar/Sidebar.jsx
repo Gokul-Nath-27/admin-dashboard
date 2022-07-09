@@ -15,7 +15,7 @@ import DescriptionIcon from '@mui/icons-material/Description';
 const Sidebar = () => {
     return (
         <div className="sidebar">
-            <div className="top"><span className="logo">lamadmin</span></div>
+            <div className="top"><span className="logo">Stumble</span></div>
             <div className="center">
                 <ul>
                     <p className="title">MAIN</p>
