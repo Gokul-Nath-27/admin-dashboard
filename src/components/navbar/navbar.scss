@@ -1,0 +1,73 @@
+.navbar{
+    border-bottom: 0.01rem solid hsl(0, 2%, 90%);
+    display: flex;
+    height: 4.5rem;
+    align-items: center;
+    justify-content: center;
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        padding: 0 1.5rem;
+        .search{
+            min-width: 20rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 0.01rem solid hsl(0, 2%, 90%);
+            padding: 0.5rem 1rem;
+
+            input{
+                background-color: transparent;
+                border: none;
+                outline:none;
+                &::placeholder{
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .items{
+            display: flex;
+            align-items: center;
+
+            .item{
+                position: relative;
+                display: flex;
+                align-items: center;
+                margin: 5px 15px;
+                cursor: pointer;
+                .icon{
+                    font-size: 1.7rem;
+                }
+            }
+            .item:nth-child(4)::before, .item:nth-child(5)::before{
+                    content: attr(data-count);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 12px;
+                    font-weight: 700;
+                    position: absolute;
+                    top:-6px;
+                    right: -6px;
+                    height: 1rem;
+                    width: 1rem;
+                    background-color: red;
+                    border-radius: 50%;
+            }
+            .avatar{
+                margin: 0.5rem;
+                height: 2.5rem;
+                width: 2.5rem;
+                border-radius: 50%;
+                cursor: pointer;
+                background-image: url("../../assets/avatar.jpg");
+                background-size: cover;
+            }
+        }
+    }
+    
+}
