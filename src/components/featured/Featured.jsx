@@ -19,31 +19,33 @@ const Featured = () => {
             <div className="bottom">
                 <div className="item">
                     <span className="title">Target</span>
-                    <span className="stat">
-                        <div className="icon">
-                            <KeyboardArrowUpIcon />
-                        </div>
+                    <div className="stat positive">
+                        <span className="icon">
+                            <KeyboardArrowUpIcon fontSize="small"/>
+                        </span>
                         <span>$12.5k</span>
-                    </span>
+                    </div>
                 </div>
                 <div className="item">
-                    <span className="title">Target</span>
-                    <span className="stat">
-                        <div className="icon">
-                            <KeyboardArrowUpIcon />
-                        </div>
+                    <span className="title">Last week</span>
+                    <div className="stat negative">
+                        <span className="icon">
+                            <KeyboardArrowUpIcon fontSize="small"/>
+                        </span>
                         <span>$12.5k</span>
-                    </span>
+                    </div>
                 </div>
                 <div className="item">
-                    <span className="title">Target</span>
-                    <span className="stat">
-                        <div className="icon">
-                            <KeyboardArrowUpIcon />
-                        </div>
+                    <span className="title">Last month</span>
+                    <div className="stat positive">
+                        <span className="icon">
+                            <KeyboardArrowUpIcon fontSize="small"/>
+                        </span>
                         <span>$12.5k</span>
-                    </span>
+                    </div>
                 </div>
+            
+                
                 
             </div>
         </div>

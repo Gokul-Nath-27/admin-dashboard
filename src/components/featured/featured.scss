@@ -1,15 +1,15 @@
 .featured{
-    flex: 3 0 0;
+    flex: 2 0 0;
     -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
     box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
     header{
         display: flex;
-        min-height: 2rem;
         justify-content: space-between;
         align-items: center;
         color: rgb(172, 163, 163);
-        padding: 0.6rem .7rem;
+        padding: 0.7rem .7rem;
         .title{
+            font-size: 1.2rem;
             font-weight: bold;
         }
     }
@@ -56,10 +56,22 @@
                 font-size: 1.1rem;
             }
             .stat{
-                color:green;
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
+                justify-content: center;
+                &.positive{
+                    color:green;
+                }
+                &.positive span:nth-child(1){
+                    margin-top: 5px;
+                }
+                &.negative{
+                    color:red;
+                }
+                &.negative span:nth-child(1){
+                    transform: rotate(180deg);
+                    margin-bottom: 5px;
+                }
             }
         }
     }
