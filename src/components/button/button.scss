@@ -1,0 +1,87 @@
+.btn{
+    display: inline;
+    overflow: hidden;
+    position: relative;
+    width: 160px;
+    height: 50px;
+    background-color: #555;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &.active{
+        background-color: teal;
+    }
+
+    span{
+        position: absolute;
+        left:35px;
+        background-color: #fff;
+        height: 20px;
+        width: 18px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        transition: 0.5s;
+
+    }
+    span::after{
+        content: '';
+        position: absolute;
+        width: 30%;
+        height: 2px;
+        left:35%;
+        top:-6px;
+        background-color: #fff;
+        transition: 0.5s;
+    }
+    span::before{
+        content: '';
+        position: absolute;
+        top: -4px;
+        width:100%;
+        background-color: #fff;
+        height: 2px;
+        transition: 0.5s;
+
+    }
+
+    &:hover span{
+ 
+        transform: scale(1.5) rotate(60deg) translateY(10px);
+    }
+    &:hover span::before{
+
+        transform: rotate(-90deg) translateY(-10px) translateX(50%);
+    }
+    &:hover span::after {
+        transform: rotate(-90deg) translateX(7px) translateY(-12px);
+
+    }
+
+    text{
+        color:#fff;
+        position: absolute;
+        right: 45px;
+        transition: 0.5s;
+    }
+    &:hover text, &.active text{
+
+        transform: translateX(-90%) translateY(-50%) scale(0);
+    }
+    &.active span::after, &.active span::before{
+        transform: scale(0);
+    }
+    &.active span{        
+        left:50%;
+        transform: translateX(-40%) rotate(-45deg) translateY(-5px);
+        border-radius: 0;
+        height: 10px;
+        width:20px;
+        background-color: transparent;
+        border-left:3px solid white;
+        border-bottom:3px solid white;
+    }
+}

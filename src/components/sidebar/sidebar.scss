@@ -1,8 +1,11 @@
 .sidebar{
     border-right: 0.01rem solid hsl(0, 2%, 90%);
-    height: 100vh;
-    
-    
+    height: 100%;
+    background-color: #fff;
+    z-index: 2;
+    width:15%;
+    overflow: hidden;
+    position: fixed;    
     .top{
         height: 4.5rem;
         display: flex;

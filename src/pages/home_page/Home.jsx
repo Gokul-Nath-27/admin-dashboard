@@ -2,19 +2,27 @@ import './home.scss'
 import Sidebar from '../../components/sidebar/Sidebar'
 import Navbar from '../../components/navbar/Navbar'
 import Widget from '../../components/widget/Widget'
+import Featured from '../../components/featured/Featured'
+import Chart from '../../components/chart/Chart'
 const Home = () => {
     return (
         <div className='home'>
             <Sidebar />
+            <Navbar />
+
             <div className="home_container"> 
-                <Navbar />
                 <div className="widgets">
-                    <Widget />
-                    <Widget />
-                    <Widget />
-                    <Widget />
+                    <Widget type="user"/>
+                    <Widget type="order"/>
+                    <Widget type="earnings"/>
+                    <Widget type="balance"/>
+                </div>
+                <div className="charts">
+                    <Featured />
+                    <Chart />
                 </div>
             </div>
+
         </div>
     )
 }

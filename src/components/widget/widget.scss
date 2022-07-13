@@ -3,8 +3,51 @@
     justify-content: space-between;
     flex:1;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 1rem 1.2rem;
     -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
     box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
     height:8rem;
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title{
+            font-size: 1.1rem;
+            color: rgba(149, 143, 143, 0.931);
+            font-weight: bold;
+        }
+        .counter{
+            font-size: 1.7rem;
+            font-weight: 300;
+        }
+        .link{
+            cursor: pointer;
+            border-bottom: 0.01rem solid hsl(0, 0%, 0%);
+            
+        }
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .percent{
+
+            &.positive{
+                color: green;
+            }
+            &.negative{
+                color: red;
+            }
+        }
+        .icon{
+            display: flex;
+            justify-content: center;
+            align-self: flex-end;
+            padding: 0.3rem;
+            font-size: 2rem;
+            border-radius: 5px;
+        }
+    }
 }

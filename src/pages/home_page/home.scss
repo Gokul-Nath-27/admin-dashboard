@@ -1,15 +1,21 @@
 .home{
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    height: 100vh;
+    display: flex;
+    width:100%;
     .home_container{
-        height: inherit;
+        margin-top: 4.5rem;
+        margin-left: 15%;
+        width: 85%;
+        padding: 1.5rem;
+
         .widgets{
-            height: calc(100vh - 4.5rem);
+            top: 4.5rem;
             display: flex;
             gap:1.5rem;
-            padding: 1.5rem;
-            overflow-y: scroll;
+        }
+        .charts{
+            display: flex;
+            gap:1.5rem;
+            margin-top: 1rem;
         }
     }
 }

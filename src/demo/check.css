@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    position: relative;
+}
+
+.sidebar{
+    position: fixed;
+    height: 100vh;
+    background-color: teal;
+    width: 15%;
+}
+.main{
+    position: relative;
+    margin-left: 15%;
+    background-color: transparent;
+
+}
+.nav{
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    flex:1 0 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 50px;
+    width: 85%;
+    background-color: peachpuff;
+}
+.home-container{
+    position: relative;
+    top:50px;
+    display: flex;
+}
+.inside-home{
+
+    flex:1 0 0;
+    min-height: 40vh;
+    background-color: silver;
+}
+.next{
+    height: 50px;
+    width: 500px;
+    background-color: papayawhip;
+}
