@@ -17,5 +17,19 @@
             gap:1.5rem;
             margin-top: 1rem;
         }
+        .list-container{
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+            padding: 1rem; 
+            margin: 1rem 0;
+            color: rgb(172, 163, 163);
+
+            
+            .list-title{
+                font-weight: 600;
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+            }  
+        }
     }
 }

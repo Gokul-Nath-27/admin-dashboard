@@ -29,7 +29,7 @@ const Navbar = () => {
                   <div className="item" data-count="5">
                      <NotificationsNoneOutlinedIcon className="icon" />
                   </div>
-                  <div className="item" data-count="8">
+                  <div className="item" data-count="4">
                      <ChatBubbleOutlineOutlinedIcon className="icon" />
                   </div>
                   <div className="item">
