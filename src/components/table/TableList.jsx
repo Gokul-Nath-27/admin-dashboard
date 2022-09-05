@@ -102,7 +102,7 @@ const TableList = () => {
                                 <TableCell>{row.id}</TableCell>
                                 <TableCell className="table-cell">
                                     <div className="cell-wrapper">
-                                        <img src={row.img} className="image" />
+                                        <img src={row.img} className="image" alt=""/>
                                         {row.product }
                                     </div>
                                 </TableCell>
