@@ -5,5 +5,80 @@
         margin-top: 4.5rem;
         margin-left: 15%;
         width: 85%;
+        padding: 1.5rem;
+
+        .top{
+            display: flex;
+            gap:1rem;
+
+            .left{
+                position: relative;
+                flex: 1 0 0;
+                padding: 1rem;
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+                box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+                color: rgb(172, 163, 163);
+                .edit-button{
+                    position: absolute;
+                    top:0;
+                    right: 0;
+                    padding: 0.2em 0.4em;
+                    border: none;
+                    border-radius: 0 0 0 5px;
+                    background-color: rgba(128, 0, 128, 0.15);
+                    color:purple;
+                    font-size: 16px;
+                }
+                .title{
+                    color: rgba(58, 56, 56, 0.822);
+                    margin-bottom: 1rem;
+                    font-size: 20px;
+                    padding-bottom: 5px;
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+                }
+                .item{
+                    display: flex;
+                    .item-img{
+                        height: 200px;
+                        width: 200px;
+                        border-radius: 50%;
+                    }
+                    .details{
+                        padding-left: 2rem;
+                        .user-name{
+                            color: rgba(58, 56, 56, 0.822);
+                            margin: 8px 0;
+                        }
+                        .detail-item{
+                            margin-bottom: 5px;
+                            .key{
+                                margin-right: 5px;
+                            }
+                        }
+
+                    }
+
+                }
+            }
+            .right{
+                flex: 2 0 0;
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+                box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+                color: rgb(172, 163, 163);
+
+            }
+        }
+        .bottom{
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+                box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+                margin-top: 1rem;
+                padding: 1rem;
+
+                .title{
+                    color: rgba(58, 56, 56, 0.822);
+                    font-size: 20px;
+                    padding-bottom: 5px;
+                }
+        }
     }
 }
