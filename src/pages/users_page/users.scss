@@ -1,10 +1,36 @@
 .users{
     display: flex;
     width:100%;
-    .home-container{
+    .user-container{
         margin-top: 4.5rem;
         margin-left: 15%;
         width: 85%;
         padding: 1.5rem;
+
+        .add-post{
+            color: rgba(105, 104, 104, 0.959);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+
+            .title{
+                font-size: 20px;
+            }
+            .btn{
+                padding: 0.5rem 1rem;
+                background-color: rgba(0, 128, 128, 0.835);
+                color: white;
+                border-radius: 10px;
+                font-size: 16px;
+            }
+        }
+        .data-table{            
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+        }
     }
 }
