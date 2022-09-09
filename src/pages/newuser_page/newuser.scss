@@ -14,7 +14,7 @@
         .title, .main{
             -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
             box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
-            color: rgb(172, 163, 163);
+            color: rgb(114, 110, 110);
             padding: 1rem;
         }
         .main{
@@ -56,6 +56,10 @@
                             border: none;
                             outline: none;
                             border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+
+                            &::placeholder{
+                                color: rgba(114, 110, 110, 0.534);
+                            }
                         }
                     }
                     button{

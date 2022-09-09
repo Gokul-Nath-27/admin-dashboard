@@ -2,83 +2,83 @@ export const userRow = [
     {
         id: 1,
         username: "Snow",
-        img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        img: "  https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
         status: "active",
-        email: "snaow1@gmail.com",
-        age: 26
-    },
-    {
+        email: "1snow@gmail.com",
+        age: 35,
+      },
+      {
         id: 2,
-        username: "Snow",
-        img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        username: "Jamie Lannister",
+        img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        email: "2snow@gmail.com",
         status: "passive",
-        email: "snaow1@gmail.com",
-        age: 33
-    },
-    {
+        age: 42,
+      },
+      {
         id: 3,
-        username: "Snow",
-        img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-        status: "active",
-        email: "snaow1@gmail.com",
-        age: 28
-    },
-    {
+        username: "Lannister",
+        img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        email: "3snow@gmail.com",
+        status: "pending",
+        age: 45,
+      },
+      {
         id: 4,
-        username: "Snow",
-        img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        username: "Stark",
+        img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        email: "4snow@gmail.com",
         status: "active",
-        email: "snaow1@gmail.com",
-        age: 35
-    },
-    {
+        age: 16,
+      },
+      {
         id: 5,
-        username: "Snow",
-        img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-        status: "pending",
-        email: "snaow1@gmail.com",
-        age: 42
-    },
-    {
-        id: 6,
-        username: "Snow",
-        img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-        status: "active",
-        email: "snaow1@gmail.com",
-        age: 35
-    },
-    {
-        id: 7,
-        username: "Snow",
-        img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-        status: "active",
-        email: "snaow1@gmail.com",
-        age: 35
-    },
-    {
-        id: 8,
-        username: "Snow",
-        img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        username: "Targaryen",
+        img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        email: "5snow@gmail.com",
         status: "passive",
-        email: "snaow1@gmail.com",
-        age: 35
-    },
-    {
-        id: 9,
-        username: "Snow",
-        img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        age: 22,
+      },
+      {
+        id: 6,
+        username: "Melisandre",
+        img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        email: "6snow@gmail.com",
         status: "active",
-        email: "snaow1@gmail.com",
-        age: 35
-    },
-    {
-        id: 10,
-        username: "Snow",
-        img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        age: 15,
+      },
+      {
+        id: 7,
+        username: "Clifford",
+        img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        email: "7snow@gmail.com",
+        status: "passive",
+        age: 44,
+      },
+      {
+        id: 8,
+        username: "Frances",
+        img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        email: "8snow@gmail.com",
+        status: "active",
+        age: 36,
+      },
+      {
+        id: 9,
+        username: "Roxie",
+        img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        email: "snow@gmail.com",
         status: "pending",
-        email: "snaow1@gmail.com",
-        age: 35
-    }
+        age: 65,
+      },
+      {
+        id: 10,
+        username: "Roxie",
+        img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        email: "snow@gmail.com",
+        status: "active",
+        age: 65,
+      }
 ]
 
 export const userColumns =[
@@ -104,3 +104,6 @@ export const userColumns =[
 
 
 ]
+
+
+

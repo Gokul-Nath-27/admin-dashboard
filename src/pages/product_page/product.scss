@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.product{
+    display: flex;
+    width: 100%;
+    .product-container{
+        margin-top: 4.5rem;
+        margin-left: 15%;
+        width: 85%;
+        padding: 1.5rem;
+        .header{
+            
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+            padding: 1rem;
+            color: rgb(143, 135, 135);
+            font-weight: bold;
+            .Typewriter{
+                margin-top: 1rem;
+                margin-left: 1rem;
+                .Typewriter__wrapper, .Typewriter__cursor{
+                    margin-top: 1rem;
+                    font-family: 'Montserrat';
+                    color: rgba(128, 0, 128, 0.76);
+                    max-width: 10%;
+                    font-size: 36px;
+                }
+            }
+            button{
+                margin-top: 1rem;
+                margin-left: 1rem;
+                padding: 10px 20px;
+                font-weight: bold;
+                border: none;
+                background-color: rgba(115, 28, 141, 0.596);
+                color:white;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
